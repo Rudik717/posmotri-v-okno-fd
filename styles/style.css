@@ -224,6 +224,10 @@ ol {
   outline-offset: 1px;
 }
 
+.search-form__label:active:has(input:focus-visible) {
+  outline-offset: -1px;
+}
+
 .search-form__pseudo-checkbox {
   height: 19px;
   width: 19px;
